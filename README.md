@@ -1,27 +1,41 @@
-# 🎮 Pierre-Feuille-Ciseaux Python
+# 🎮 Rock-Paper-Scissors in Python
 
-Petit jeu en Python où le joueur affronte l'ordinateur dans un jeu de Pierre-Feuille-Ciseaux.
+A small Python game where the player plays Rock-Paper-Scissors against the computer.
 
 ## 📌 Description
 
-Le programme permet au joueur de choisir entre pierre, feuille ou ciseaux.  
-L'ordinateur fait un choix aléatoire et le programme compare les deux choix pour déterminer le gagnant.
+The player chooses rock, paper or scissors (in French: `pierre`, `feuille` or `ciseaux`).
+The computer makes a random choice, and the program compares both choices to find the winner.
 
-## 🚀 Fonctionnalités
+## 🚀 Features
 
-- 🎮 Jouer contre l'ordinateur
-- 🎲 Choix aléatoire grâce au module `random`
-- 🔄 Rejouer plusieurs parties sans relancer le programme
-- 🧠 Détermination automatique du gagnant avec des conditions Python
+- 🎮 Play against the computer
+- 🎲 Random choice with the `random` module
+- 🔄 Play several rounds without restarting the program
+- 🧠 The winner is found automatically with Python conditions
 
-## 🛠️ Technologies utilisées
+## 🛠️ Built with
 
 - Python 3
-- Module `random`
+- `random` module
 
-## ▶️ Lancer le programme
+## ▶️ Run the program
 
-Cloner le projet :
+Clone the project:
 
 ```bash
-git clone https://github.com/tonpseudo/pierre-feuille-ciseaux.git
+git clone https://github.com/ismael9689/pierre-feuille-ciseaux.git
+cd pierre-feuille-ciseaux
+```
+
+Run the game:
+
+```bash
+python3 pierre-feuille-ciseaux.py
+```
+
+Type `pierre`, `feuille` or `ciseaux` to play, and `non` to stop.
+
+## 👨‍💻 Author
+
+Made by [ismael9689](https://github.com/ismael9689) while learning Python.
